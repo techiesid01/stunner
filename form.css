@@ -1,0 +1,80 @@
+* {
+	margin: 0;padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.bgimg{
+	width: 100%;height: 100vh;
+	background-image: linear-gradient(27deg, #76f5cc 50%, #4bebb7 50%);
+}
+.centerediv{
+	width: 350px;height: 400px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background-image: linear-gradient(27deg, #4bebb7 50%, #76f5cc 50%);
+	box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.2);
+	border-radius: 10px;
+}
+#propic{
+	width: 120px;height: 120px;
+	border-radius: 50%;
+	position: relative;
+	top: -60px;
+	left: calc( (350px - 120px) / 2 );
+}
+h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 2em;
+	word-spacing: 10px;
+	margin-top: -50px;
+	margin-bottom: 50px;
+	text-shadow: -2px 2px 1px #0A84C6;
+}
+.inputbox{
+	width: calc(100% - 40px);
+	height: 30px;
+	display: block;
+	margin: auto;
+	padding: 0 10px;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+::placeholder {
+	letter-spacing: 2px;
+	color: black;
+}
+button{
+	width: calc(100% - 40px);
+	height: 30px;
+	display: block;
+	margin: auto;
+	color: white;
+	background-color: #00b894;
+	border: none;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.forgot-section{
+	width: calc(100% - 40px);
+	line-height: 30px;
+	display: block;
+	margin: auto;
+	color: white;
+	background-color: #00b894;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	text-align: right;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+#txt {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
